@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cyrille connect</string>
+    <string name="mot_du_bas">Pas encore de compte ?</string>
+    <string name="sinscrire">S\'inscrire</string>
+    <string name="connexion">Connexion</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="nom_utilisateur">Nom utilisateur</string>
+    <string name="todo">TODO</string>
+</resources>

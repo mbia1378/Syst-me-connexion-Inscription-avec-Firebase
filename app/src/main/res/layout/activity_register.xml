@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sea_opt"
+    tools:context="com.cyrille.mbia.mnc1.Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/wsdesignlogobagtrans"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_user"/>
+            <customfonts.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:hint="Nom"
+                android:letterSpacing="0.025"
+                android:background="#00000000"
+                android:textColorHint="#fff"
+                android:textSize="16dp"
+                android:padding="12dp"
+                android:id="@+id/editName"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#fff"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_user"/>
+            <customfonts.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="#fff"
+                android:hint="Email"
+                android:letterSpacing="0.025"
+                android:background="#00000000"
+                android:textColorHint="#fff"
+                android:textSize="16dp"
+                android:padding="12dp"
+                android:id="@+id/editEmail"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#fff"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_password"/>
+            <customfonts.MyEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColor="#fff"
+                android:hint="Mot de passe"
+                android:letterSpacing="0.025"
+                android:background="#00000000"
+                android:textColorHint="#fff"
+                android:textSize="16dp"
+                android:padding="12dp"
+                android:id="@+id/editPassword"/>
+
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#fff"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#0E2130"
+        android:alpha="0.5"
+        android:textColor="#fff"
+        android:id="@+id/buttonLogin"
+        android:layout_below="@+id/editPassword"
+        android:layout_marginTop="20dp"
+        android:text="Inscription "/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="#0E2130"
+        android:alpha="0.5"
+        android:textColor="#fff"
+        android:layout_below="@+id/buttonLogin"
+        android:layout_marginTop="20dp"
+        android:text="Connexion " />
+
+    
+
+</LinearLayout>
